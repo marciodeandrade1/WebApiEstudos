@@ -8,7 +8,6 @@ namespace WebApiEstudos.Data
     {
     public AppDataContext(DbContextOptions<AppDataContext> options) : base(options) { }
     public DbSet<Produto> Produtos { get; set; } // Tabela de Produtos
-
     }
     
 }
